@@ -1,0 +1,108 @@
+2025-11-27 22:19:48.489 -05:00 [INF] Starting Intersect Client v0.8.0.553-beta+1459a026205d9a38fb72c4069d0d734fc70941a8
+2025-11-27 22:19:48.830 -05:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2025-11-27 22:19:48.834 -05:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2025-11-27 22:19:48.835 -05:00 [INF] Discovered 0 plugins:
+
+2025-11-27 22:19:49.277 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/updater/update.json
+2025-11-27 22:19:49.542 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/updater/update.json
+2025-11-27 22:19:49.591 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/updater/update.json
+2025-11-27 22:19:49.635 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/updater/update.json
+2025-11-27 22:19:49.680 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/updater/update.json
+2025-11-27 22:19:49.723 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/updater/update.json
+2025-11-27 22:19:50.437 -05:00 [ERR] Exception thrown while trying to load 'resources\gui\skin-intersect.png'
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Desktop\MMO\EKPatch\resources\gui\resources\gui\skin-intersect.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameTexture.cs:line 273
+2025-11-27 22:19:50.491 -05:00 [ERR] Exception thrown while trying to load 'resources\gui\logo.png'
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Desktop\MMO\EKPatch\resources\gui\resources\gui\logo.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameTexture.cs:line 273
+2025-11-27 22:19:50.521 -05:00 [ERR] Exception thrown while trying to load 'resources\gui\statusbg.png'
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Desktop\MMO\EKPatch\resources\gui\resources\gui\statusbg.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameTexture.cs:line 273
+2025-11-27 22:20:00.341 -05:00 [ERR] Exception thrown while trying to load 'resources\gui\background.png'
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Desktop\MMO\EKPatch\resources\gui\resources\gui\background.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameTexture.cs:line 273
+2025-11-27 22:20:00.351 -05:00 [ERR] Text color for the current control state of 'Titlebar._label' is somehow null IsDisabled=false IsActive=false IsHovered=false
+2025-11-27 22:20:00.352 -05:00 [ERR] Text color for the current control state of Intersect.Client.Framework.Gwen.Control.Button 'MainMenuWindow_online._buttonLogin' is somehow null IsDisabled=true IsActive=false IsHovered=false
+2025-11-27 22:20:00.352 -05:00 [ERR] Text color for the current control state of Intersect.Client.Framework.Gwen.Control.Button 'MainMenuWindow_online._buttonRegister' is somehow null IsDisabled=true IsActive=false IsHovered=false
+2025-11-27 22:20:00.352 -05:00 [ERR] Text color for the current control state of Intersect.Client.Framework.Gwen.Control.Button 'MainMenuWindow_online._buttonSettings' is somehow null IsDisabled=false IsActive=false IsHovered=false
+2025-11-27 22:20:00.352 -05:00 [ERR] Text color for the current control state of Intersect.Client.Framework.Gwen.Control.Button 'MainMenuWindow_online._buttonCredits' is somehow null IsDisabled=false IsActive=false IsHovered=false
+2025-11-27 22:20:00.352 -05:00 [ERR] Text color for the current control state of Intersect.Client.Framework.Gwen.Control.Button 'MainMenuWindow_online._buttonExit' is somehow null IsDisabled=false IsActive=false IsHovered=false
+2025-11-27 22:20:00.403 -05:00 [ERR] Text color for the current control state of 'Titlebar._label' is somehow null IsDisabled=false IsActive=false IsHovered=false
+2025-11-27 22:20:00.421 -05:00 [FTL] Game is crashing due to an exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Intersect.Client.Framework.Gwen.Skin.Texturing.Bordered.Equals(Bordered other) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Skin\Texturing\Bordered.cs:line 188
+   at Intersect.Client.Framework.Gwen.Skin.Texturing.Bordered.op_Inequality(Bordered lhs, Bordered rhs) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Skin\Texturing\Bordered.cs:line 203
+   at Intersect.Client.Framework.Gwen.Skin.IntersectSkin.DrawWindow(Base control, Int32 topHeight, Boolean inFocus) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Skin\IntersectSkin.cs:line 335
+   at Intersect.Client.Framework.Gwen.Control.WindowControl.Render(Base skin) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\WindowControl.cs:line 316
+   at Intersect.Client.Framework.Gwen.Control.Base.RenderRecursive(Base skin, Rectangle clipRect) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3221
+   at Intersect.Client.Framework.Gwen.Control.Base.DoRender(Base skin) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3139
+   at Intersect.Client.Framework.Gwen.Control.WindowControl.DoRender(Base skin) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\WindowControl.cs:line 176
+   at Intersect.Client.Framework.Gwen.Control.Base.RenderRecursive(Base skin, Rectangle clipRect) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3232
+   at Intersect.Client.Framework.Gwen.Control.Base.DoRender(Base skin) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3139
+   at Intersect.Client.Framework.Gwen.Control.Canvas.RenderCanvas(TimeSpan elapsed, TimeSpan total) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Canvas.cs:line 144
+   at Intersect.Client.Interface.Menu.MenuGuiBase.Draw(TimeSpan elapsed, TimeSpan total) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Interface\Menu\MenuGuiBase.cs:line 67
+   at Intersect.Client.Interface.Interface.DrawGui(TimeSpan elapsed, TimeSpan total) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Interface\Interface.cs:line 364
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime, TimeSpan totalTime) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Core\Graphics.cs:line 613
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 332
+   at Microsoft.Xna.Framework.Game.DoDraw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 613
+2025-11-27 22:20:00.445 -05:00 [INF] Acquiring context lock... (0ms)
+2025-11-27 22:20:00.445 -05:00 [INF] Acquired. (0ms)
+2025-11-27 22:20:00.446 -05:00 [INF] Beginning context dispose. (0ms)
+2025-11-27 22:20:00.446 -05:00 [INF] GC.SuppressFinalize (0ms)
+2025-11-27 22:20:00.446 -05:00 [INF] InternalDispose() completed. (0ms)
+2025-11-27 22:20:00.446 -05:00 [INF] Clearing instance... (1ms)
+2025-11-27 22:20:00.446 -05:00 [INF] Releasing context lock... (1ms)
+2025-11-27 22:20:00.446 -05:00 [INF] Released. (1ms)
+2025-11-27 22:20:00.446 -05:00 [ERR] Failed to start application context
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Intersect.Client.Framework.Gwen.Skin.Texturing.Bordered.Equals(Bordered other) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Skin\Texturing\Bordered.cs:line 188
+   at Intersect.Client.Framework.Gwen.Skin.Texturing.Bordered.op_Inequality(Bordered lhs, Bordered rhs) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Skin\Texturing\Bordered.cs:line 203
+   at Intersect.Client.Framework.Gwen.Skin.IntersectSkin.DrawWindow(Base control, Int32 topHeight, Boolean inFocus) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Skin\IntersectSkin.cs:line 335
+   at Intersect.Client.Framework.Gwen.Control.WindowControl.Render(Base skin) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\WindowControl.cs:line 316
+   at Intersect.Client.Framework.Gwen.Control.Base.RenderRecursive(Base skin, Rectangle clipRect) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3221
+   at Intersect.Client.Framework.Gwen.Control.Base.DoRender(Base skin) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3139
+   at Intersect.Client.Framework.Gwen.Control.WindowControl.DoRender(Base skin) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\WindowControl.cs:line 176
+   at Intersect.Client.Framework.Gwen.Control.Base.RenderRecursive(Base skin, Rectangle clipRect) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3232
+   at Intersect.Client.Framework.Gwen.Control.Base.DoRender(Base skin) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3139
+   at Intersect.Client.Framework.Gwen.Control.Canvas.RenderCanvas(TimeSpan elapsed, TimeSpan total) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Gwen\Control\Canvas.cs:line 144
+   at Intersect.Client.Interface.Menu.MenuGuiBase.Draw(TimeSpan elapsed, TimeSpan total) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Interface\Menu\MenuGuiBase.cs:line 67
+   at Intersect.Client.Interface.Interface.DrawGui(TimeSpan elapsed, TimeSpan total) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Interface\Interface.cs:line 364
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime, TimeSpan totalTime) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Core\Graphics.cs:line 613
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 332
+   at Microsoft.Xna.Framework.Game.DoDraw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 613
+   at Intersect.Client.Core.ClientContext.InternalStart() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in D:\a\Intersect-Engine\Intersect-Engine\Intersect (Core)\Core\ApplicationContext`2.cs:line 245
