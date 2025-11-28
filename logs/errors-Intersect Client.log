@@ -94,3 +94,37 @@ System.NullReferenceException: Object reference not set to an instance of an obj
    at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 613
    at Intersect.Client.Core.ClientContext.InternalStart() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Core\ClientContext.cs:line 97
    at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in D:\a\Intersect-Engine\Intersect-Engine\Intersect (Core)\Core\ApplicationContext`2.cs:line 245
+2025-11-27 22:01:05.479 -05:00 [INF] Starting Intersect Client v0.8.0.553-beta+1459a026205d9a38fb72c4069d0d734fc70941a8
+2025-11-27 22:01:07.236 -05:00 [ERR] Failed to access update server
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Intersect.Framework.Core.AssetManagement.Updater.TryGetManifest(UpdateManifest& updateManifest, Int32 reattemptTimes, Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Framework\Intersect.Framework.Core\AssetManagement\Updater.cs:line 181
+2025-11-27 22:01:07.252 -05:00 [ERR] Update check failed
+System.Exception: Failed to download update manifest
+   at Intersect.Framework.Core.AssetManagement.Updater.RunUpdates(CancellationToken cancellationToken) in D:\a\Intersect-Engine\Intersect-Engine\Framework\Intersect.Framework.Core\AssetManagement\Updater.cs:line 374
+2025-11-27 22:01:16.180 -05:00 [INF] Starting Intersect Client v0.8.0.553-beta+1459a026205d9a38fb72c4069d0d734fc70941a8
+2025-11-27 22:01:17.634 -05:00 [ERR] Failed to access update server
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Intersect.Framework.Core.AssetManagement.Updater.TryGetManifest(UpdateManifest& updateManifest, Int32 reattemptTimes, Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Framework\Intersect.Framework.Core\AssetManagement\Updater.cs:line 181
+2025-11-27 22:01:17.652 -05:00 [ERR] Update check failed
+System.Exception: Failed to download update manifest
+   at Intersect.Framework.Core.AssetManagement.Updater.RunUpdates(CancellationToken cancellationToken) in D:\a\Intersect-Engine\Intersect-Engine\Framework\Intersect.Framework.Core\AssetManagement\Updater.cs:line 374
