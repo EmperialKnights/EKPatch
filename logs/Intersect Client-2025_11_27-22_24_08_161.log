@@ -1,0 +1,47 @@
+2025-11-27 22:24:08.685 -05:00 [INF] Starting Intersect Client v0.8.0.553-beta+1459a026205d9a38fb72c4069d0d734fc70941a8
+2025-11-27 22:24:09.022 -05:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2025-11-27 22:24:09.025 -05:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2025-11-27 22:24:09.027 -05:00 [INF] Discovered 0 plugins:
+
+2025-11-27 22:24:09.462 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/gui/updater/update.json
+2025-11-27 22:24:09.754 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/gui/updater/update.json
+2025-11-27 22:24:09.810 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/gui/updater/update.json
+2025-11-27 22:24:09.881 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/gui/updater/update.json
+2025-11-27 22:24:09.934 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/gui/updater/update.json
+2025-11-27 22:24:09.984 -05:00 [INF] Attempting to fetch update manifest from https://github.com/EmperialKnights/EKPatch/main/resources/gui/updater/update.json
+2025-11-27 22:24:10.706 -05:00 [ERR] Exception thrown while trying to load 'resources\gui\skin-intersect.png'
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Desktop\MMO\EKPatch\resources\gui\resources\gui\skin-intersect.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameTexture.cs:line 273
+2025-11-27 22:24:10.758 -05:00 [ERR] Exception thrown while trying to load 'resources\gui\logo.png'
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Desktop\MMO\EKPatch\resources\gui\resources\gui\logo.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameTexture.cs:line 273
+2025-11-27 22:24:10.787 -05:00 [ERR] Exception thrown while trying to load 'resources\gui\statusbg.png'
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Desktop\MMO\EKPatch\resources\gui\resources\gui\statusbg.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameTexture.cs:line 273
+2025-11-27 22:24:16.748 -05:00 [INF] System window closing (due to user interaction most likely).
+2025-11-27 22:24:16.786 -05:00 [INF] Acquiring context lock... (0ms)
+2025-11-27 22:24:16.786 -05:00 [INF] Acquired. (0ms)
+2025-11-27 22:24:16.788 -05:00 [INF] Beginning context dispose. (0ms)
+2025-11-27 22:24:16.788 -05:00 [INF] GC.SuppressFinalize (0ms)
+2025-11-27 22:24:16.789 -05:00 [INF] InternalDispose() completed. (0ms)
+2025-11-27 22:24:16.789 -05:00 [INF] Clearing instance... (2ms)
+2025-11-27 22:24:16.789 -05:00 [INF] Releasing context lock... (3ms)
+2025-11-27 22:24:16.789 -05:00 [INF] Released. (3ms)
