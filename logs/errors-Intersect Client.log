@@ -1,0 +1,10 @@
+2025-11-27 22:29:31.198 -05:00 [INF] Starting Intersect Client v0.8.0.553-beta+1459a026205d9a38fb72c4069d0d734fc70941a8
+2025-11-27 22:29:56.537 -05:00 [ERR] Exception thrown while trying to load 'resources\entities\base_male.png'
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Desktop\MMO\EKPatch\resources\entities\resources\entities\base_male.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Framework\Graphics\GameTexture.cs:line 273
