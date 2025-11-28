@@ -14,7 +14,7 @@
   "MenuBackgroundDisplayMode": "Default",
   "MenuBackgroundFrameInterval": 50,
   "IntroImages": [],
-  "UpdateUrl": "https://github.com/EmperialKnights/EKPatch/update/update.json",
+  "UpdateUrl": "https://github.com/EmperialKnights/EKPatch/blob/main/update/update.json",
   "MouseCursor": null,
   "MusicFadeTimer": 1500,
   "FadeDurationMs": 3000.0,
